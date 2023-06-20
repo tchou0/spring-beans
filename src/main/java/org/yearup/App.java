@@ -7,8 +7,7 @@ import com.yearup.service.StudentAlreadyRegisteredException;
 public class App {
     public static void main(String[] args) throws
             StudentAlreadyRegisteredException {
-        ApplicationContext ctx =
-                new ClassPathXmlApplicationContext("/beans.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("/beans.xml");
 
         RegistrationService registrationService =
                 ctx.getBean(RegistrationService.class);
