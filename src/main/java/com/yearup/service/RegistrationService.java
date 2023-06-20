@@ -6,7 +6,7 @@ import com.yearup.dao.RegistrationDAO;
 import com.yearup.model.Student;
 
 @Component
-public class RegistrationService {
+public class RegistrationService{
     private final RegistrationDAO registrationDAO;
 
     @Autowired

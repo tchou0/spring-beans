@@ -8,16 +8,14 @@ public class Student {
     private final String lastName;
     private final String major;
 
-    public Student(Long id, String firstName, String lastName,
-                   String major) {
+    public Student(Long id, String firstName, String lastName, String major) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.major = major;
     }
 
-    public Student(String firstName, String lastName,
-                   String major) {
+    public Student(String firstName, String lastName, String major) {
         super();
         this.firstName = firstName;
         this.lastName = lastName;
