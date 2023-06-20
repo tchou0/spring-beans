@@ -1,2 +1,4 @@
-package com.yearup.service;public class StudentAlreadyRegisteredException {
+package com.yearup.service;
+
+public class StudentAlreadyRegisteredException extends Exception {
 }
